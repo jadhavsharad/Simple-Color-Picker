@@ -13,7 +13,7 @@ function mycolor() {
     let color = document.getElementById('color-picker').value;
     let preview = document.getElementById('preview');
     document.getElementById('hex-code').value = color;
-    document.getElementById('preview').style.backgroundColor = color;
+    document.getElementById('color-preview').style.backgroundColor = color;
     preview.classList.add('outline-[' + color + ']');
 }
 
